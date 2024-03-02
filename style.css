@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: "Jost", sans-serif;
+  list-style: none;
+  text-decoration: none;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  right: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 10%;
+}
+
+header a {
+  max-width: 60px;
+  height: auto;
+  color: orangered;
+  font-weight: 500;
+}
+
+.navmenu {
+  display: flex;
+  padding-left: 470px;
+}
+
+.navmenu a {
+  color: black;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 5px 14px;
+}
+
+.navmenu a:hover {
+  color: orangered;
+}
+
+.first-button {
+  display: inline-block;
+  color: white;
+  border: 2px solid rgb(154, 219, 154);
+  background-color: rgb(154, 219, 154);
+  padding: 7px 9px;
+  border-radius: 10%;
+}
+
+.first-button:hover {
+  color: orangered;
+}
+
+.main-home {
+  padding-top: 135px;
+  margin: 35px 138px;
+  font-size: 45px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.main-home a {
+  color: orangered;
+}
+
+.main-home h5 {
+  font-size: 20px;
+  font-weight: 300;
+  padding-top: 50px;
+}
+.image {
+  max-width: 40%;
+  position: absolute;
+  right: 100px;
+  bottom: 60px;
+}
+.second-button {
+  display: inline-block;
+  background-color: orangered;
+  color: white;
+  padding: 12px 35px;
+  border-radius: 5%;
+}
+.third-button {
+  display: inline-block;
+  background-color: rgb(154, 219, 154);
+  color: white;
+  padding: 12px 35px;
+  border-radius: 5%;
+}
+
+.them-buttons {
+  position: absolute;
+  left: 135px;
+  bottom: 90px;
+}
+.bx bx-chevron-right {
+  padding: 3px;
+}
